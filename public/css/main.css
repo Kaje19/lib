@@ -1,0 +1,65 @@
+/* General styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; /* warm beige */
+}
+
+body {
+    background-color: #F5F5DC; /* beige */
+}
+
+/* Title styles */
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #3D250B; /* warm beige */
+}
+
+/* Login system styles */
+.login-form {
+    /* Add your styles here */
+    background-color: #F5F5DC; /* beige */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    color: #3D250B; /* warm beige */
+}
+
+.login-form button {
+    background-color: #3D250B; /* warm beige */
+}
+
+.btn-custom {
+    background-color: #48e44d; /* Green */
+    border: none;
+    color: #3D250B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-custom:hover {
+    background-color: #a8c42d;
+}
+
+/* Create account form styles */
+.create-account-form {
+    /* Add your styles here */
+    background-color: #F5F5DC; /* beige */
+}
+
+.create-account-form input[type="text"],
+.create-account-form input[type="password"] {
+    color: #3D250B; /* warm beige */
+}
+
+.create-account-form button {
+    background-color: #3D250B; /* warm beige */
+    color: #F5F5DC; /* beige */
+}

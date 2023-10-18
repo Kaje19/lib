@@ -1,0 +1,44 @@
+body {
+  background: #f5f5dc;
+  background: linear-gradient(to right, #f5f5dc, #f5f5dc);
+}
+
+.card-img-left {
+  width: 45%;
+  /* Link to your new background image with a bird on it */
+  background: scroll center url('https://assets.albiononline.com/uploads/media/default/media/5653c97a29e53e3710596e55bee15b42a3d5c79c.jpeg');
+  background-size: cover;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  color: whitesmoke !important;
+  background-color: transparent; /* no background color */
+}
+
+.btn-google {
+  color: black !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  background-color: #f5f5dc;
+}
+
+.btn-facebook {
+  color: black !important;
+  background-color: #f5f5dc;
+}
+
+@media (max-width: 575px) {
+
+  .wrapper{
+      margin: 30px 15px;
+  }
+
+  .wrapper .form-left{
+      padding: 25px;
+  }
+  .wrapper .form-right{
+      padding: 25px;
+  }
+}

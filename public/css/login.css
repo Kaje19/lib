@@ -1,0 +1,52 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #3D250B; /* warm beige */
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn-custom {
+    background-color: #48e44d !important; /* Green */
+    border: none;
+    color: #3D250B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #a8c42d !important;
+}
+.custom-gap {
+    margin-bottom: 30px; /* Adjust the value as needed */
+}
+.login-page {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5DC; /* beige */
+}
+
+.form-right i {
+    font-size: 100px;
+    color: #3D250B; /* warm beige */
+}
+
+
+.btn-custom:hover {
+    background-color: #a8c42d;
+}
+
